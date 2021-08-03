@@ -13,20 +13,21 @@
 
     <a href="index.html" class="primaryLink">Home 🏠</a>
 
-    <form>
+    <form id="angleForm">
 
-        <input type="number" id="angleOne" required />
+        <input type="number" class="inputAngle" min="1" max="180" required>
 
-        <input type="number" id="angleTwo" required />
+        <input type="number" class="inputAngle" min="1" max="180" required>
 
-        <input type="number" id="angleThree" required />
+        <input type="number" class="inputAngle" min="1" max="180" required>
 
-        <button type="submit">Submit</button>
+        <button type="submit" class="inputAngle" >Submit</button>
 
-        <output>Output will be shown here</output>
-    <form>
+        
+    </form>
+    <div id="angleOutput">Output will be shown here</div>
 
 
-    <script src="app.js"></script>
+    <script src="checkAngles.js"></script>
 </body>
 </html>
